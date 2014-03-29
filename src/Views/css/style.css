@@ -1,0 +1,102 @@
+ol{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif,sans-serif;
+}
+
+
+	.cbp-spmenu {
+		background: #083242;
+		position: fixed;
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif,sans-serif;
+	}
+
+	.cbp-spmenu h3 {
+		font-family: 'Terminal Dosis', Arial, sans-serif;
+		color: white;
+		font-size: 1.9em;
+		margin: 0;
+		font-weight: 300;
+		background: white;
+		text-align:center;
+		height:46px;
+	}
+
+	.cbp-spmenu a {
+		display: block;
+		color: white;
+		font-weight: 400;
+	}
+
+	.cbp-spmenu a:hover {
+		background: white;
+		color:black;
+	}
+
+	.cbp-spmenu a:active {
+		background: #afdefa;
+		color: black;
+		color:white;
+	}
+
+	/* Orientation-dependent styles for the content of the menu */
+
+	.cbp-spmenu-vertical {
+		width: 170px;
+		height: 100%;
+		top: 0;
+		z-index: 1000;
+	}
+
+	.cbp-spmenu-vertical a {
+	/*	border-bottom: 1px solid #e8e8e8;*/
+		padding: 9px;
+		text-decoration: none;
+	}
+
+	/* Vertical menu that slides from the left or right */
+
+	.cbp-spmenu-left {
+		left: -240px;
+	}
+
+
+	.cbp-spmenu-left.cbp-spmenu-open {
+		left: 0px;
+		border-right:1px solid black;
+		transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+	    -moz-transition: all 0.3s ease;
+	}
+
+	#lnavcoll {
+		font-weight:400;
+		background:#083242;
+		color:white;
+		font-size:8px;
+	}
+	
+	#lnavcoll:hover {
+		background:white;
+		color:#083242;
+	}
+	
+	.left_counter_num {
+		float: right;
+		background: white;
+		color: #00729c;
+		border-radius: 5px;
+		font-size: 13px;
+		top: -4px;
+		position: relative;
+		padding: 3px 7px 3px 7px;
+		font-weight:normal;
+	}
+	
+	
+	.leftbar_ol {
+		font-size: 14px;
+		position: relative;
+		width: 100%;
+		text-decoration: none;
+		padding: 0px;
+		margin: 2px;
+	}
